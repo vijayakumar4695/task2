@@ -8,130 +8,241 @@ body {
 	background: blue;
         list-style-type:none;
         text-align:left;
-	padding:0;
-        overflow:hidden;
+	padding-left:70px;
+        overflow:hidden
 }
-.nav li a {
-	display: inline-block;
+.nav li  {
+	display: inline-black;
         font-size: 15px;
-	padding: 15px;
+	padding: 10px;
         float:left;
         position:relative;
 }
+.nav li a {
+background-color:white;
+padding:4px;
+font-size:16px;
+border:1px solid black;
+border-radius:5px;
+}
+ input {
+position:absolute;
+width:140px;
+height:18px;
+left:1050px;
+top:10px;
+border:1px solid black;
+border-radius:6px;
+font-size:13px;
+text-align:center;
+cursor:pointer;
+}
+
 .background {
   width:100%;
+position:relative;
+overflow:hidden;
 }
-.row {
- width:100%; 
+
+.background h1 {
+ position:absolute;
+ left:750px;
+ top:15px;
+font-size:45px;
+color:white;
+}
+.background h2 {
+ position:absolute;
+ left:770px;
+ top:60px;
+ bottom:300px;
+font-size:10px;
+color:white;
+}
+.background h3 {
+ position:absolute;
+ left:850px;
+ top:100px;
+ bottom:250px;
+font-size:30px;
+color:white;
+}
+.background h4 {
+ position:absolute;
+ left:850px;
+ top:140px;
+ bottom:200px;
+font-size:30px;
+color:white;
+}
+.background h5 {
+ position:absolute;
+ left:850px;
+ top:180px;
+ bottom:80px;
+font-size:30px;
+color:white;
+}
+.background h6 {
+ position:absolute;
+ left:920px;
+  top:220px;
+  bottom:30px;
+  font-size:15px;
+  color:white;
+}
+ 
+.tick1{
+position:absolute;
+top:100px;
+right:520px;
+}
+
+.tick2{
+position:absolute;
+top:140px;
+right:520px;
+}
+
+.tick3{
+position:absolute;
+top:185px;
+right:520px;
+}
+div1 {
+background-color:red;
+width:20px;
+height:10px;
+border-style:hidden;
+overflow:visible;
+}
+
+.row{
+width:100%;
+margin-left:85px;
+}
+.padding{
+padding:0%;
+
 }
 .column1{
- width:25%;
+ width:30%;
 float:left;
-padding:30px;
 }
 .column2{
- width:25%;
+ width:30%;
 float:left;
-padding:30px;
-}
-.column3{
- width:25%;
+}.column3{
+ width:30%;
 float:left;
-padding:30px;
-}
- .row{
-position: relative;
-}
-.column1 h3 {
-position:absolute;
-left:100px;
-top:50px;
-}
-.column2 h3 {
-position:absolute;
-left:500px;
-top:50px;
-}
-.column3 h3 {
-position:absolute;
-left:900px;
-top:50px;
-}
-.straightimg {
-   width:100%;
-   padding:40px;
 }
 
-.img1 {
-width:25%;
+#img1{
+float:left
+}
+.column1 h3{
 float:left;
+margin-top:15px;
+margin-left:20px;
 }
-.img2 {
-width:25%;
-float:left;
-}
-.img3 {
-width:25%;
-float:left;
-}
-.img4 {
-width:25%;
-float:left;
-}
-img1 {
-position:relative;
-}
-.img1 span{
-font-size:10px;
-position:absolute;
-left:120px;
-}
-.img1 span1{
-font-size:10px;
-position:absolute;
-left:120px;
+.column1 p{
+width:90%;
+clear:both
 }
 
-img2 {
-position:relative;
-}
-.img2 span{
-font-size:10px;
-position:absolute;
-left:450px;
-}
-.img2 span2{
-font-size:10px;
-position:absolute;
-left:450px;
-}
-img3 {
-position:relative;
-}
-.img3 span{
-font-size:10px;
-position:absolute;
-left:800px;
-}
-.img3 span3{
-font-size:10px;
-position:absolute;
-left:800px;
-}
 
-img4 {
-position:relative;
+#img2{
+float:left
 }
-.img4 span{
-font-size:10px;
-position:absolute;
-left:1150px;
+.column2 h3{
+float:left;
+margin-top:15px;
+margin-left:20px;
 }
-.img4 span4{
-font-size:10px;
-position:absolute;
-left:1150px;
+.column2 p{
+width:90%;
+clear:both
 }
 
 
 
+#img3{
+float:left
+}
+.column3 h3{
+float:left;
+margin-top:15px;
+margin-left:20px;
+}
+.column3 p{
+width:90%;
+clear:both
+}
+
+
+.straightimg{
+width:100%;
+margin-left:70px;
+clear:both
+}
+.img1{
+width:20%;
+float:left;
+padding:15px;
+}
+.img1 span {
+font-family:roboto;
+margin-left:58px;
+font-size:10px;
+}
+.img1 span1 {
+font-family:roboto;
+margin-left:48px;
+font-size:12px;
+}
+
+.img2{
+width:20%;
+float:left;
+padding:15px;
+}
+.img2 span {
+font-family:roboto;
+margin-left:65px;
+font-size:10px;
+}
+.img2 span2 {
+font-family-roboto;
+margin-left:55px;
+font-size:12px;
+}
+.img3{
+width:20%;
+float:left;
+padding:15px;
+}
+.img3 span {
+ font-family:roboto;
+ margin-left:80px;
+ font-size:10px;
+}
+.img3 span3 {
+font-family:roboto;
+margin-left:70px;
+font-size:12px;
+}
+.img4{
+width:20%;
+float:left;
+padding:15px;
+}
+.img4 span {
+font-family:roboto;
+margin-left:85px;
+font-size:10px;
+}
+.img4 span4 {
+font-family-roboto;
+margin-left:70px;
+font-size:12px;
+} 
